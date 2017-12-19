@@ -1,0 +1,66 @@
+#fixedbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.fixednav {
+  display: inline-block;
+  list-style: none;
+ background: linear-gradient(to bottom right, goldenrod, darkgray);
+  width: 100%;
+  height: 33px;
+  border-bottom: solid 2px;
+  border-color: black;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  height: 33px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  color: white ;
+  background-color: lightblue ;
+}
+
+body{
+  background-color: lightblue;
+}
+
+.home{
+  margin: 0;
+  border-width: 0px 1px 0px 1px;
+  border-style: solid;
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.contact{
+  margin: 0;
+  border-width: 0px 1px 0px 1px;
+  border-style: solid;
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.procedures{
+  margin: 0;
+  border-width: 0px 1px 0px 1px;
+  border-style: solid;
+  list-style: none;
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
