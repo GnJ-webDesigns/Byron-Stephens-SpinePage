@@ -1,18 +1,40 @@
+.titlebox{
+  background: linear-gradient(to bottom right, #a28e62, darkgray);
+  width: 100%
+}
+
+.title-left{
+  float: left;
+  text-align: center;
+  background: linear-gradient(to bottom right, #a28e62, darkgray);
+  width: 50%;
+  height: 121px;
+}
+
+.title-right{
+  float: right;
+  text-align: center;
+  background: linear-gradient(to top right, darkgray, #a28e62);
+  width: 50%;
+}
+
 #fixedbar {
   display: flex;
   justify-content: space-between;
   width: 100%;
   height: 100%;
+  margin-top: 0;
 }
 
 .fixednav {
   display: inline-block;
   list-style: none;
- background: linear-gradient(to bottom right, goldenrod, darkgray);
+  background: linear-gradient(to bottom right, #a28e62, darkgray);
   width: 100%;
   height: 33px;
-  border-bottom: solid 2px;
+  border-top: solid 2px;
   border-color: black;
+  margin-top: 0;
 }
 
 li {
@@ -31,14 +53,35 @@ a:hover {
   background-color: lightblue ;
 }
 
+.fixednav a{
+  font-weight: bold;
+}
+
+.fixednav li:hover { 
+  color: white ;
+  background-color: lightblue ;
+}
+img.resize {
+  max-width: 30%;
+  max-height: 30%;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/*.mainpic{
+  max-width: 220px;
+  max-height: auto;
+  display: inline-block;
+}*/
+
 body{
   background-color: lightblue;
+  display: inline-block;
 }
 
 .home{
   margin: 0;
-  border-width: 0px 1px 0px 1px;
-  border-style: solid;
+  width: 30%;
   list-style: none;
   display: inline-block;
   padding-right: 10px;
@@ -47,8 +90,7 @@ body{
 
 .contact{
   margin: 0;
-  border-width: 0px 1px 0px 1px;
-  border-style: solid;
+  width: 30%;
   list-style: none;
   display: inline-block;
   padding-right: 10px;
@@ -57,10 +99,94 @@ body{
 
 .procedures{
   margin: 0;
-  border-width: 0px 1px 0px 1px;
-  border-style: solid;
+  width: 30%;
   list-style: none;
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
+}
+.body-title{
+  display: inline-block;
+  float: right;
+  margin-right: 38%;
+}
+.body-subtitle{
+  display: inline-block;
+  float: right;
+  margin-right: 42%;
+  margin-top:-420px;
+}
+.main-content{
+  display: inline-block;
+  float: right;
+  margin-top:-380px;
+  margin-right:15%;
+  width: 50%;
+}
+
+#fixedfooter {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 478px;
+}
+.footer{
+  display: inline-block;
+  list-style: none;
+  background: linear-gradient(to bottom right, #a28e62, darkgray);
+  width: 100%;
+  min-height: 478px;
+  border-bottom: solid 2px;
+  border-color: black;
+}
+.location{
+  margin: 0;
+  border-width: 0px 1px 0px 0px;
+  font-size: 22px;
+  border-style: solid;
+  width: 49%;
+  height: 100%;
+  list-style: none;
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 10px;
+}
+.location-p{
+  font-size: 18px;
+  line-height: 1.5px;
+  display: block;
+}
+
+.location-p2{
+  font-size: 18px;
+  line-height: 1.5px;
+  display: block;
+  margin-top:10%;
+}
+.connect{
+  /*padding-top: 0%;*/
+  float: right;
+  /*margin-top: -250px;*/
+  /*margin-bottom: 20%;*/
+  font-size: 22px;
+  width: 45%;
+  /*height: 100%;*/
+  list-style: none;
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.appt-btn{
+  font-size: 22px;
+  background-color: lightblue;
+  text-align: center;
+  border-style: solid;
+  border-radius: 46%;
+  border-width: 2px 1px;
+  float:right;
+  display: inline-block;
+  /*margin: 70px auto;*/
+  padding: 11px;
+  margin-top: -350px;
+  margin-right:13%;
 }
